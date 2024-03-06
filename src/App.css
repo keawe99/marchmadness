@@ -1,6 +1,17 @@
 .App {
   text-align: center;
 }
+.Teams {
+  text-align: center;
+}
+
+.Middle {
+  text-align: center;
+}
+
+.Right {
+  text-align: right;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +46,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.team-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.team-name {
+  flex: 1;
+}
+
+.team-mascot {
+  flex: 1;
+  text-align: center;
+}
+
+.team-location {
+  flex: 1;
+  text-align: right;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.middle {
+  text-align: left center;
+}
+
+.right {
+  text-align: right;
+}
+
+.border {
+  border-bottom: #282c34;
 }
